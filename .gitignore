@@ -4,3 +4,7 @@
 *.jar
 *.war
 *.ear
+
+# Twilio properties files
+src/main/resources/META-INF/twilio.properties
+src/test/resources/twilio.properties
