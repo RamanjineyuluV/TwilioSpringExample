@@ -2,7 +2,7 @@ package com.tarrant.sms;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.tarrant.sms.model.SmsMessage;
@@ -12,7 +12,7 @@ import com.tarrant.sms.service.TwilioService;
 public class Application {
 
 	static final Logger LOG = LoggerFactory.getLogger(Application.class);
-	private AbstractApplicationContext appContext;
+	private ApplicationContext appContext;
 
 	private TwilioService twilioManager;
 	
